@@ -1,0 +1,10 @@
+{
+  "name": "micromatch-tester",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --import ./test-setup.mjs --test 'index.spec.mjs'"
+  },
+  "dependencies": {
+    "micromatch": "4.0.7"
+  }
+}
